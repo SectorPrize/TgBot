@@ -8,6 +8,7 @@ bot.on("callback_query", (msg) => {
     let price = 0;
     let data = msg.text;
     console.log(data);
+    console.log(data);
     if (sum !== NaN) {
       if (sum > 0 && sum < 10000) {
         if (data == "futb") {
